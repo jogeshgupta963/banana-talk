@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+:root{
+    --primary-color:#FCD34D;
+    --light-yellow:beige;
+    /* --light-yellow:white; */
+}
+
+
+body{
+     background-color:var(--light-yellow);
+    margin:0%;
+    font-family: 'Hina Mincho', serif;
+}
+/* container  */
+
+.container{
+    margin: auto;
+    text-align: center;
+    font-size: 350%;
+    
+}
+
+/* nav  */
+nav{
+    background-color: var(--primary-color);
+    padding:1% 2.5%;
+    
+}
+/* text area  */
+
+.input{
+    padding: 1% 2%;
+    margin: auto;
+    margin-top: 2%;
+    display: block;
+    background-color: var(--light-yellow);
+    width: 33%;
+    height: 16vh;
+}
+/* button  */
+
+.btn-translate{
+    
+    margin-right:  31.25%;
+    margin-left:  31.25%;
+    margin-top: 2%;
+    background-color: var(--primary-color);
+    display: block;
+    width: 10%;
+    height:10vh;
+}
+.btn-translate:hover{
+    background-color:var(--light-yellow);
+}
+/* text  */
+.txt{
+    margin-right:  31.25%;
+    margin-left:  31.25%;
+    background-color: var(--light-yellow);
+    margin-top: 1%;
+    font-size: 125%;
+    display: block;
+    
+}
+/* div bar  */
+.output{
+    margin-top: 1%;
+    height: 12vh;
+    background-color: var(--light-yellow);
+}  
+/* footer  */
+.footer{
+    margin-top: 1%;
+    background-color: var(--primary-color);
+    padding:3% 2.5%;
+    padding-top: 2%;
+    
+}
+.footer-font{
+    font-size: x-large;
+    font-family:initial;
+    margin:auto;
+    max-width: 50%;
+    padding-left: 8%;
+}
