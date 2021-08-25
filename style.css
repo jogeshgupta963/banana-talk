@@ -66,9 +66,10 @@ nav{
 }
 /* div bar  */
 .output{
-    margin-top: 1%;
+    border:1px solid black;
+    /* margin-top: 1%;
     height: 12vh;
-    background-color: var(--light-yellow);
+    background-color: var(--light-yellow); */
 }  
 /* footer  */
 .footer{
