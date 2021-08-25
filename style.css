@@ -16,7 +16,8 @@ body{
 .img{
     /* background-image: url("images/MINIONS\ WALLPAPER\ wallpaper\ by\ Toxeec\ -\ 89\ -\ Free\ on\ ZEDGE™.jpg"); */
     background-image: url("images/Minions-009.jpg");
-    background-image: 
+    
+    
 }
 /* container  */
 
@@ -53,7 +54,7 @@ nav{
     margin-top: 2%;
     background-color: var(--primary-color);
     display: block;
-    width: 11%;
+    width: 150px;
     height:10vh;
 }
 .btn-translate:hover{
